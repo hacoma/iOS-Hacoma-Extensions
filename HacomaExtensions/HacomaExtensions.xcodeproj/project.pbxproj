@@ -126,18 +126,10 @@
 		C83BB1992532EF3A005F9A08 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				C83BB1A02532EF4D005F9A08 /* Extensions */,
-			);
-			path = Module;
-			sourceTree = "<group>";
-		};
-		C83BB1A02532EF4D005F9A08 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
 				C83BB1AD2532EF52005F9A08 /* Source */,
 				C83BB1AE2532EF57005F9A08 /* Supporting Files */,
 			);
-			path = Extensions;
+			path = Module;
 			sourceTree = "<group>";
 		};
 		C83BB1AD2532EF52005F9A08 /* Source */ = {
@@ -246,8 +238,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C83BB17C2532EE3E005F9A08 /* Example */,
 				C83BB19E2532EF4D005F9A08 /* Extensions */,
+				C83BB17C2532EE3E005F9A08 /* Example */,
 			);
 		};
 /* End PBXProject section */
@@ -542,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Module/Extensions/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Module/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -618,7 +610,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Module/Extensions/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Module/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
